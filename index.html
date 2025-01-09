@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Load Progress Mock-Up</title>
+    <link rel="stylesheet" type="text.css" href="./scss/normalize.css" />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="stylesheet" href="./scss/fonts.css" />
+    <link rel="stylesheet" href="./scss/fontawesome-all.css" />
+    <link rel="stylesheet" href="./scss/google.css" />
+  </head>
+  <body>
+    <div class="Header">
+      <div class="Logo">
+        <a href="index.html">
+          <img
+            class="Logo-img"
+            style="height: 20px; width: 133px"
+            src="img/precog-logo.png"
+          />
+        </a>
+      </div>
+      <div class="ButtonGroup">
+        <a class="Button button" href="#"
+          ><i class="Icon fas fa-table"></i>Load History</a
+        >
+        <button class="Button">
+          <i class="Icon fas fa-user-circle"></i>My subscription</button
+        ><button class="Button">
+          <i class="Icon fas fa-sign-out-alt"></i>Log out
+        </button>
+      </div>
+    </div>
+    <div class="Page">
+      <div class="PipelineListPage">
+        <div class="Container">
+          <h1>All pipelines</h1>
+          <div class="ButtonGroup">
+            <a class="Button" href="#/pipeline/create"
+              ><i class="Icon fas fa-plus"></i>Add new pipeline</a
+            ><button class="Button" type="button">
+              <i class="Icon fas fa-sync-alt"></i>Refresh
+            </button>
+          </div>
+
+          <div class="Banner">
+            <p>
+              <i class="Icon fas fa-bell" style="color: #5b43c9"></i>
+              SAP SuccessFactors has rate limited your data for more than 60
+              minutes on Thu, 20 Jun 2024 01:06:14.
+            </p>
+            <p>
+              <i class="Icon fas fa-clock" style="color: #5b43c9"></i>
+              Infor M3 has rate limited your data for more than 30 minutes out
+              of the current hour on Thu, 20 Jun 2024 01:06:14.
+            </p>
+          </div>
+          <div class="BoxList">
+            <li class="Box">
+              <a class="Box-title" href="option1.html">Operations</a
+              ><span class="StatusLine"
+                >Rate limited on
+                <span
+                  class="TimestampDisplay"
+                  title="Thu, 20 Jun 2024 07:06:14 UTC"
+                  >Thu, 20 Jun 2024 01:06:14</span
+                >
+              </span>
+              <div class="ButtonGroup Box-actions">
+                <button class="Button" type="button">
+                  <i class="Icon far fa-trash-alt"></i>Delete
+                </button>
+              </div>
+            </li>
+            <li class="Box">
+              <a class="Box-title" href="option1.html">Operations</a
+              ><span class="StatusLine"
+                >Loading,
+                <span class="DataReceived" title="1.9MB">1KB</span> received at
+                <span
+                  class="TimestampDisplay"
+                  title="Thu, 20 Jun 2024 07:06:14 UTC"
+                  >Thu, 20 Jun 2024 01:06:14</span
+                >
+              </span>
+              <div class="ButtonGroup Box-actions">
+                <button class="Button" type="button">
+                  <i class="Icon far fa-trash-alt"></i>Delete
+                </button>
+              </div>
+            </li>
+            <li class="Box">
+              <a
+                class="Box-title"
+                href="#/pipeline/09d05358-7b16-49a9-afcd-6b690463e93c"
+                >SAP Concur</a
+              ><span class="StatusLine"
+                >Load completed at
+                <span
+                  class="TimestampDisplay"
+                  title="Wed, 24 Apr 2024 17:57:15 UTC"
+                  >Wed, 24 Apr 2024 10:57:15</span
+                ></span
+              >
+              <div class="ButtonGroup Box-actions">
+                <button class="Button" type="button">
+                  <i class="Icon far fa-trash-alt"></i>Delete
+                </button>
+              </div>
+            </li>
+            <li class="Box">
+              <a
+                class="Box-title"
+                href="#/pipeline/fe39c4f1-a7fc-450c-8952-1bca302fd386"
+                >Oracle Fusion</a
+              ><span class="StatusLine"
+                >Load processing at
+                <span
+                  class="TimestampDisplay"
+                  title="Tue, 16 Jul 2024 19:16:56 UTC"
+                  >Tue, 16 Jul 2024 12:16:56</span
+                ></span
+              >
+              <div class="ButtonGroup Box-actions">
+                <button class="Button" type="button">
+                  <i class="Icon far fa-trash-alt"></i>Delete
+                </button>
+              </div>
+            </li>
+            <li class="Box">
+              <a class="Box-title" href="option1.html">Infor M3</a
+              ><span class="StatusLine"
+                >Rate limited on
+                <span
+                  class="TimestampDisplay"
+                  title="Mon, 22 Jul 2024 17:01:12 UTC"
+                  >Mon, 22 Jul 2024 10:01:12</span
+                ></span
+              >
+              <div class="ButtonGroup Box-actions">
+                <button class="Button" type="button">
+                  <i class="Icon far fa-trash-alt"></i>Delete
+                </button>
+              </div>
+            </li>
+            <li class="Box">
+              <a
+                class="Box-title"
+                href="#/pipeline/9cbf4226-e288-4509-b46f-42f042bdd698"
+                >GA4 Daily</a
+              ><span class="StatusLine"
+                >Load completed at
+                <span
+                  class="TimestampDisplay"
+                  title="Thu, 14 Nov 2024 15:05:16 UTC"
+                  >Thu, 14 Nov 2024 08:05:16</span
+                ></span
+              >
+              <div class="ButtonGroup Box-actions">
+                <button class="Button" type="button">
+                  <i class="Icon far fa-trash-alt"></i>Delete
+                </button>
+              </div>
+            </li>
+            <li class="Box">
+              <a
+                class="Box-title"
+                href="#/pipeline/a13225d9-78a8-4a47-b1e6-9b4ec9eddef0"
+                >GA4 Reporting</a
+              ><span class="StatusLine"
+                >Load completed at
+                <span
+                  class="TimestampDisplay"
+                  title="Wed, 3 Jul 2024 13:02:43 UTC"
+                  >Wed, 3 Jul 2024 06:02:43</span
+                ></span
+              >
+              <div class="ButtonGroup Box-actions">
+                <button class="Button" type="button">
+                  <i class="Icon far fa-trash-alt"></i>Delete
+                </button>
+              </div>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
