@@ -4773,6 +4773,34 @@ p {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
+.Banner2 {
+  /* background-color: rgba(91, 67, 201, 0.05); */
+  background-image: linear-gradient(
+    to top,
+    rgba(250, 250, 250, 0.25),
+    rgba(91, 67, 201, 0.25)
+  );
+  border-radius: 10px;
+  border: solid 2px rgba(91, 67, 201, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 2px 0px;
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.Banner3 {
+  background-color: rgba(91, 67, 201, 0.05);
+  /* background-image:
+  linear-gradient(to top, rgba(250, 250, 250, 0.25), rgba(91, 67, 201, 0.25)); */
+  border-radius: 10px;
+  border: solid 2px rgba(91, 67, 201, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 2px 0px;
+  padding: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .BannerList {
   margin: 0;
   padding: 0;
